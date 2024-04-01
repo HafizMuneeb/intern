@@ -1,21 +1,23 @@
 import React from 'react';
-import { FaCoffee, FaCode, FaBook } from 'react-icons/fa';
+import { FaCoffee, FaCode, FaBook, FaUncharted  } from 'react-icons/fa';
+import { MdOutlineDesignServices, MdBubbleChart  } from "react-icons/md";
+import { FaDeviantart } from "react-icons/fa6";
 
 const Cards = ({ title, description }) => {
   let iconComponent;
   switch (title) {
     case 'Title 1':
-      iconComponent = <FaCoffee size={50} />;
+      iconComponent = <MdOutlineDesignServices size={50} />;
       break;
     case 'Title 2':
-      iconComponent = <FaCode size={50} />;
+      iconComponent = <FaUncharted size={50} />;
       break;
     case 'Title 3':
-      iconComponent = <FaBook size={50} />;
+      iconComponent = <FaDeviantart  size={50} />;
       break;
     // Add more cases for other titles and corresponding icons
     default:
-      iconComponent = <FaCoffee size={50} />; // Default icon
+      iconComponent = <MdBubbleChart size={50} />; // Default icon
   }
 
   return (
