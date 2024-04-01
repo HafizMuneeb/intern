@@ -14,7 +14,6 @@ import Button from "./Button"
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Card />
       <ImageWithText
@@ -43,7 +42,6 @@ const Home = () => {
       />
       <RandomNumberComponent />
       <Offer />
-      <Footer />
     </div>
   );
 };
