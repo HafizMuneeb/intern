@@ -19,9 +19,9 @@ const Cards = ({ title, description }) => {
   }
 
   return (
-    <div className="m-4 flex flex-col w-full md:w-[300px] h-[350px] rounded-xl items-center justify-center gap-5 bg-[#2d2e32] hover:shadow-2xl hover:shadow-green-500 transition duration-300 ease-in-out">
+    <div className="m-4 flex flex-col w-full md:w-[300px] h-[350px] rounded-xl items-center justify-center gap-5 bg-[#0c0c0ea1] hover:shadow-2xl hover:shadow-green-500 transition duration-300 ease-in-out hover:bg-green-400 hover:text-white">
       <div className="flex flex-col items-center justify-center text-white text-center">
-        <div className='text-[#64f4ab] rounded-full bg-[#2d2e32] px-6 py-6  border-2 border-[#327a56] mb-5'>
+        <div className='text-[#64f4ab] rounded-full bg-[#17171a] px-6 py-6  border-2 border-[#327a56] mb-5 hover:text-white'>
         {iconComponent}
         </div>
         <h3 className="text-2xl md:text-2xl font-bold mb-5">{title}</h3>
