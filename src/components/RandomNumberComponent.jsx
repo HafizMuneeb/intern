@@ -2,7 +2,7 @@ import React from "react";
 
 const RandomNumberComponent = () => {
   return (
-    <div className="bg-gray-600 p-4 relative">
+    <div className="bg-[#2d2e32] p-4 relative">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mt-12">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full relative">
           {/* Cards */}

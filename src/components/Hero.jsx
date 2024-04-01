@@ -3,7 +3,7 @@ import { Slide } from "@mui/material";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-800 p-4">
+    <section className="bg-[#2d2e32] p-4">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Text */}
         <div className="hero-text text-center md:text-left md:w-1/2">

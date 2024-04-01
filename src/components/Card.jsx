@@ -4,7 +4,7 @@ import { Slide, Zoom } from "@mui/material";
 
 const Card = () => {
   return (
-    <section className="bg-gray-600 p-4">
+    <section className="bg-[#2d2e32] p-4">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full relative">
           {/* Cards */}

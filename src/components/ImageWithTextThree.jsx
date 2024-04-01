@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const ImageWithTextThree = ({ imageUrl, altText, title, description }) => {
   return (
-    <div className="bg-gray-600 p-4">
+    <div className="bg-[#2d2e32] p-4">
       <div className="container mx-auto flex-col sm:flex justify-between items-center mt-12 mb-12">
         <Slide direction="right" in={true} timeout={1000}>
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
